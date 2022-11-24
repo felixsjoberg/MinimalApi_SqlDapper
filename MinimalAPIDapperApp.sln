@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalAPIDapper", "MinimalAPIDapper\MinimalAPIDapper.csproj", "{C35E7F94-619F-4952-8736-085FDF7CFEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DbAccess\DataAccess.csproj", "{18C27D0D-0BCD-42E7-9E0D-4DE9C3CA8FC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C35E7F94-619F-4952-8736-085FDF7CFEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35E7F94-619F-4952-8736-085FDF7CFEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35E7F94-619F-4952-8736-085FDF7CFEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35E7F94-619F-4952-8736-085FDF7CFEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C27D0D-0BCD-42E7-9E0D-4DE9C3CA8FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C27D0D-0BCD-42E7-9E0D-4DE9C3CA8FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C27D0D-0BCD-42E7-9E0D-4DE9C3CA8FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C27D0D-0BCD-42E7-9E0D-4DE9C3CA8FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D80F8CF5-D36E-4BFF-8F56-ACD4A6CB8A1A}
+	EndGlobalSection
+EndGlobal
