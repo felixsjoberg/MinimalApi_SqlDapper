@@ -1,29 +1,23 @@
 ﻿<Properties StartupConfiguration="{C35E7F94-619F-4952-8736-085FDF7CFEC0}|https">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="DbAccess/DbAccess/SqlDataAccess.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MinimalAPIDapper/appsettings.json">
     <Files>
-      <File FileName="MinimalAPIDapper/DbAccess/SqlDataAccess.cs" Line="25" Column="6" />
-      <File FileName="MinimalAPIDapper/Models/UserModel.cs" Line="1" Column="1" />
-      <File FileName="MinimalAPIDapper/Program.cs" Line="26" Column="1" />
-      <File FileName="MinimalAPIDapper/appsettings.json" Line="10" Column="54" />
-      <File FileName="DbAccess/Data/UserData.cs" Line="7" Column="20" />
-      <File FileName="DbAccess/Data/IUserData.cs" Line="1" Column="1" />
-      <File FileName="MinimalAPIDapper/GlobalUsings.cs" Line="2" Column="37" />
-      <File FileName="MinimalAPIDapper/Api.cs" Line="13" Column="43" />
-      <File FileName="DbAccess/DbAccess/ISqlDataAccess.cs" Line="1" Column="1" />
+      <File FileName="MinimalAPIDapper/Program.cs" />
+      <File FileName="DbAccess/Models/UserModel.cs" />
+      <File FileName="DbAccess/DbAccess/SqlDataAccess.cs" />
+      <File FileName="DbAccess/DbAccess/ISqlDataAccess.cs" />
+      <File FileName="DbAccess/Data/UserData.cs" />
+      <File FileName="DbAccess/Data/IUserData.cs" />
+      <File FileName="MinimalAPIDapper/Api.cs" />
+      <File FileName="MinimalAPIDapper/appsettings.json" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MinimalAPIDapperApp" expanded="True">
             <Node name="DataAccess" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
+              <Node name="Dependencies" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="DbAccess" expanded="True" />
               <Node name="Models" expanded="True" />
@@ -37,5 +31,8 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MinimalAPIDapper PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

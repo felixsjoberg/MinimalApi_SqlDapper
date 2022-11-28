@@ -5,7 +5,6 @@ public static class Api
 {
 	public static void ConfigureApi(this WebApplication app)
 	{
-		// All of my API endpoint mapping
 		app.MapGet("/Users", GetUsers);
 		app.MapGet("/Users/{id}", GetUser);
 		app.MapPost("/Users", InsertUser);

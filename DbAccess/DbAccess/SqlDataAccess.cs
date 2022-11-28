@@ -9,8 +9,7 @@ namespace MinimalAPIDapper.DbAccess;
 
 public class SqlDataAccess : ISqlDataAccess
 {
-    // Dependency Injection, we get our data from example: appsettings.json
-    // secret.json, information from environmental variables etc etc..
+
     private readonly IConfiguration _config;
 
     public SqlDataAccess(IConfiguration config)
@@ -31,7 +30,7 @@ public class SqlDataAccess : ISqlDataAccess
 
     public async Task SaveData<T>(
         string storedProcedure,
-        T parameters, //We have this one called T, just for naming convention, the first generic should always be T
+        T parameters, 
         string connectionId = "Default")
     {
         using IDbConnection connection = new SqlConnection(_config.GetConnectionString(connectionId));
